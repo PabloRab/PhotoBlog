@@ -7,14 +7,6 @@
 body{
     font-family: 'Playfair Display', serif;
 }
-ul{
-    list-style: none;
-
-}
-a{
-    text-decoration: none;
-
-}
 .header-link{
     color: var(--navigation-color);
     text-transform: uppercase;
@@ -51,5 +43,5 @@ font-size: 14px;
 .button{
     background-color:#fff;
     color: var(--text-color);
-    border: 1px solid var(--text-color)
+    border: 1px solid var(--text-color);
 }
