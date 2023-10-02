@@ -7,6 +7,12 @@
 body{
     font-family: 'Playfair Display', serif;
 }
+.container{
+    width: 936px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 2px solid red;
+}
 .header-link{
     color: var(--navigation-color);
     text-transform: uppercase;
@@ -16,8 +22,14 @@ body{
 .header-link:focus{
     color: var(--hover-color);
 }
+.header{
+    background-color: bisque;
+    padding-top: 71px;
+}
 .main{
-
+background-color: aqua;
+padding-top: 92px;
+padding-bottom: 66px;
 }
 .title,
 .card-title{
